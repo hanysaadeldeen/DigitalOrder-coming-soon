@@ -10,15 +10,15 @@ export default defineNuxtConfig({
     // { path: "~/components/home/", extensions: ["vue"] },
     "~/utils",
   ],
-  i18n: {
-    strategy: "prefix_except_default",
-    locales: [
-      { code: "en", iso: "en-US", name: "English" },
-      { code: "ar", iso: "ar-EG", name: "Arabic" },
-    ],
-    defaultLocale: "ar",
-    vueI18n: "./i18n.config.ts",
-  },
+  // i18n: {
+  //   strategy: "prefix_except_default",
+  //   locales: [
+  //     { code: "en", iso: "en-US", name: "English" },
+  //     { code: "ar", iso: "ar-EG", name: "Arabic" },
+  //   ],
+  //   defaultLocale: "en",
+  //   vueI18n: "./i18n.config.ts",
+  // },
   app: {
     head: {
       link: [
