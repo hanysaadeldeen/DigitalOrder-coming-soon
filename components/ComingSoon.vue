@@ -26,7 +26,7 @@
           <CounterCard :time="timeLeft.seconds" label="SECONDS" />
         </div>
         <div
-          class="absolute -bottom-14 right-1/2 z-30 translate-x-1/2 bg-[#09090B] px-4 py-2 md:-bottom-24 xl:right-1/2"
+          class="absolute -bottom-14 right-1/2 z-30 translate-x-1/2 bg-transparent px-4 py-2 md:-bottom-24 xl:right-1/2"
         >
           <span class="text-base font-semibold text-white">Follow US</span>
         </div>
